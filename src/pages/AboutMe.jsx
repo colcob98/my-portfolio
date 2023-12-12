@@ -1,7 +1,7 @@
 export default function AboutMe() {
     return (
       <div>
-        <h1>About Me</h1>
+        <h1 className="page-header" >About Me</h1>
         <p> Aspiring Software Developer!
         </p>
       </div>

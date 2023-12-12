@@ -43,8 +43,8 @@ function Contact() {
     };  
 
     return (
-      <div>
-        <h1>Contact</h1>
+      <div className="contact-page">
+        <h1 className="page-header" >Contact</h1>
         <p>Please send me a message and I will get back to you as soon as possible!</p>
         <form onSubmit={formSubmit}>
             <div>
@@ -73,7 +73,7 @@ function Contact() {
                 placeholder="Message"
             />
             </div>
-            <button type="submit">Send</button>
+            <button className="btn" type="submit">Send</button>
         </form>
       </div>
     );
