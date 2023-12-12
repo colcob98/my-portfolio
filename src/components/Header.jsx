@@ -16,5 +16,5 @@ export default function Header() {
         Contact
     </Link>,
     ]
-    return <Nav links={links} />;
+    return <div><h1>Collier Cobb</h1><Nav links={links} /></div>;
 }
