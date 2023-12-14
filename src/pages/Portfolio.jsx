@@ -8,41 +8,47 @@ function Portfolio() {
             description: 'A language exchange website',
             link: "https://colcob98.github.io/LingoChat/",
             github: "https://github.com/colcob98/LingoChat",
+            image: "./lingochat.png"
         },
         {
             name: 'TinLizzie',
             description: 'A language exchange website',
             link: "https://tinlizzie5-eeacb9132a68.herokuapp.com/",
             github: "https://github.com/colcob98/Tin-Lizzie",
+            image: "./tin-lizzie.png"
         },
         {
             name: 'Weather Dashboard',
             description: 'A 5-day weather forecaster',
             link: "https://colcob98.github.io/weather-dashboard/",
             github: "https://github.com/colcob98/weather-dashboard",
+            image: "./weather-dashboard.png"
         },
         {
-            name: 'TinLizzie',
-            description: 'A language exchange website',
-            link: "https://tinlizzie5-eeacb9132a68.herokuapp.com/",
-            github: "https://github.com/colcob98/Tin-Lizzie",
+            name: 'Work Day Scheduler',
+            description: 'A time-management helper',
+            link: "https://colcob98.github.io/work-day-scheduler/",
+            github: "https://github.com/colcob98/work-day-scheduler",
+            image: "./work-day-scheduler.png"
         },
         {
-            name: 'TinLizzie',
-            description: 'A language exchange website',
-            link: "https://tinlizzie5-eeacb9132a68.herokuapp.com/",
-            github: "https://github.com/colcob98/Tin-Lizzie",
+            name: 'Note Taker',
+            description: 'A web-app for taking notes',
+            link: "https://sheltered-plains-05711-39d7f6bd52f2.herokuapp.com/",
+            github: "https://github.com/colcob98/note-taker",
+            image: "./note-taker.png"
         },
         {
-            name: 'TinLizzie',
-            description: 'A language exchange website',
-            link: "https://tinlizzie5-eeacb9132a68.herokuapp.com/",
-            github: "https://github.com/colcob98/Tin-Lizzie",
+            name: 'Code Quiz',
+            description: 'Think you know code? Quiz yourself!',
+            link: "https://colcob98.github.io/code-quiz/index.html",
+            github: "https://github.com/colcob98/code-quiz",
+            image: "./code-quiz.png"
         },
     ];
 
     return (
-        <div>
+        <div className="page-content">
             <h1 className="page-header">Portfolio</h1>
             <div>
                 {projects.map((project) => (

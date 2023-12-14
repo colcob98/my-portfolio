@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-      <div>
+      <div className="page-content">
         <h1 className="page-header" >Resume</h1>
         <p>
           Download my <a href="./Collier-Cobb-Resume.png" download="resume.png">resume</a>!

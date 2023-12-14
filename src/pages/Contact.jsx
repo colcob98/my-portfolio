@@ -43,7 +43,7 @@ function Contact() {
     };  
 
     return (
-      <div className="contact-page">
+      <div className="page-content">
         <h1 className="page-header" >Contact</h1>
         <p>Please send me a message and I will get back to you as soon as possible!</p>
         <form onSubmit={formSubmit}>
