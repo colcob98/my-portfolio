@@ -8,6 +8,8 @@ The portfolio can be accessed [here](https://main--dulcet-sherbet-81f59c.netlify
 
 A preview can be seen below.
 
+![my portfolio](./assets/portfoliosite.png)
+
 ## Contributions
 
 Company logos were accessed at the following links:
